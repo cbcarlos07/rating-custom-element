@@ -15,7 +15,7 @@ gulp.task('rename', function() {
 });
 //fonts
 gulp.task('fonts', function () {
-  return gulp.src(['./dist/radio-custom-element/font-awesome-webfont.*'])
+  return gulp.src(['./dist/rating-custom-element/fontawesome-webfont.*'])
       .pipe(gulp.dest('./dist/element'))
 })
 
